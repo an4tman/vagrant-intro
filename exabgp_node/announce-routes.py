@@ -6,8 +6,8 @@ from sys import stdout
 from time import sleep
  
 messages = [
-    'TODO',
-    'TODOTWO',
+    'announce route 100.10.0.0/24 next-hop self',
+    'announce route 200.20.0.0/24 next-hop self',
 ]
  
 sleep(5)
